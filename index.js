@@ -64,10 +64,8 @@ app.post("/scrape", async (req, res) => {
 			const scriptId = data.id;
 			console.log(scriptId);
 
-      if (scriptId)
-        saveScript({ command, url, scriptId });
-      else
-        console.error("Scroid ID not found");
+			if (scriptId) saveScript({ command, url, scriptId });
+			else console.error("Scroid ID not found");
 
 			console.log(data);
 			res.status(200).json(data);

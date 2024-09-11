@@ -36,7 +36,6 @@ export const saveScript = (data) => {
 	}
 };
 
-
 export const getScripts = async () => {
 	const scriptPath = "./scripts/scripts.json";
 
@@ -49,4 +48,4 @@ export const getScripts = async () => {
 	}
 
 	return scripts;
-}
+};
