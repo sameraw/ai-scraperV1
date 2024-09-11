@@ -1,0 +1,7 @@
+[
+	{
+		"command": "Get the first 2 post details from the Hacker News homepage. ",
+		"url": "https://news.ycombinator.com/",
+		"scriptId": "a93cfac0-966e-447f-9489-4c9b9663c93e"
+	}
+]
