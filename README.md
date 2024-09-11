@@ -1,5 +1,3 @@
-# Project Name: Scrapybera
-
 ## Description
 
 Scrape any website and turn it into structured data with AI.
